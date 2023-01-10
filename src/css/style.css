@@ -1,3 +1,43 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0%;
+  }
+.imgtaille {
+    display: block;
+    width: 200px;
+    justify-content: center;
+    padding: 2rem 0;
+    padding-left: 70px;
+    position: relative;
+}
+img {
+    display: flex;
+    width: 100%;
+    }
+  .carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    margin: 0%; 
+    }
+  .carrousel_ecran {
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
+    margin: 0%; 
+    }
+  .carrousel_ecran figure {
+    margin: 0%; 
+    }
+
+
+
+
+
+
+
 .frise {
     width: 200px;
     justify-content: center;
@@ -24,26 +64,6 @@
     left: 0;
     top: 50%;
     transform: translateY(-2.5px);
-  }
-  .datefrise {
-    display: block;
-    height: 1.5rem;
-    width: 70px;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(calc(-2.5px - 1.5rem));
-    padding-left: 2px;
-  }
-  .datefriseen {
-    display: block;
-    height: 1.5rem;
-    width: 70px;
-    position: absolute;
-    left: 0;
-    top: 45%;
-    transform: translateY(calc(-2.5px - 1.5rem));
-    padding-left: 2px;
   }
   .imgfrise {
     display: block;
