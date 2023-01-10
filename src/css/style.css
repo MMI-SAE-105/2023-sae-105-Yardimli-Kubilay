@@ -7,7 +7,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 32px;
-
+    color: #000000;
   }
   a {
     color: #000000;
@@ -16,11 +16,8 @@ body{
   p {
     padding-left: 5px;
     padding-right: 5px;
+    font-family: 'Bellefair';
   }
-img {
-    display: flex;
-    width: 100%;
-    }
   .carrousel_parent-ecrans {
     display: flex;
     width: 100%;
@@ -43,7 +40,9 @@ img {
     margin-top: 100px;
     margin-bottom: 70px;
     border: 1px solid #000000;
-    width: 120px;
+    width: 138px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .regroupementimgtext {
@@ -66,6 +65,58 @@ img {
     left: 190px;
     top: 230px;
 }
+.rectanglemouvement {
+    box-sizing: border-box;
+    background: #EEEEC5;
+    border: 0.5px solid #EEEEC5;
+    width: auto;
+    height: auto;
+    position:absolute;
+    z-index:2;
+    right: 20px;
+    left: 120px;
+    top: 1000px;
+    padding: 5px;
+}
+.imgIsidoreIsou {
+    width: 70vw;
+  display: block;
+  margin: auto;
+}
+.imgAlighieroBoetti {
+    width: 80vw;
+  display: block;
+  margin: auto;
+}
+.imgJacquesVilleglé {
+    width: 78vw;
+  display: block;
+  margin: auto;
+
+}
+.imgJoaoVieira {
+    width: 58vw;
+  display: block;
+  margin: auto;
+}
+.imgMiraSchendel {
+    width: 55vw;
+  display: block;
+  margin: auto;
+}
+.btnvoirplus {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    border: 1px solid #000000;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+  }
+.textexpo {
+  font-size: 20px;
+}
+
 
 
 
