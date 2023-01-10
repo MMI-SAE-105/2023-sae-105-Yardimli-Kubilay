@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      </button>
+      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+
+          <li><a href="/index.html">Page d’accueil</a></li>
+          <li class="ligneb"><a href="/fr/info_expo.html">Informations concernant l’exposition temporaire et billetterie</a></li>
+          <li class="ligneb"><a href="/fr/présentation_mouvement.html">Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres</a></li>
+          <li class="ligneb"><a href="/fr/Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <h1>
+    Exposition temporaire sur le mouvement artistique du Lettrisme
+  </h1>
+<img src="/public/img/exposition.jpeg" alt="exposition">
+<p>Exposition
+  Lettrisme Artistique
+  Du 13 avril au 23 juin 2023
+</p>
+
+<p>
+  Réserver un billet
+</p>
+
+<div class="carrousel" x-data="{}">
+  <div class="carrousel_parent-ecrans">
+      <div id="ecran-1" class="carrousel_ecran">
+          <figure>
+              <img src="/public/img/artistes/Isidore_Isou.jpeg" alt="Photo de Isidore Isou">
+              <figcaption>Photo de Isidore Isou</figcaption>
+          </figure>
+      </div>
+      <div id="ecran-2" class="carrousel_ecran">
+          <figure>
+              <img src="/public/img/artistes/Alighiero_Boetti.jpeg" alt="Photo de Alighiero Boetti">
+              <figcaption>Photo de Alighiero Boetti</figcaption>
+          </figure>
+      </div>
+      <div id="ecran-3" class="carrousel_ecran">
+          <figure>
+              <img src="/public/img/artistes/Jacques_Villeglé.jpeg" alt="Photo de Jacques Villeglé">
+              <figcaption>Photo de Jacques Villeglé</figcaption>
+          </figure>
+      </div>
+      <div id="ecran-4" class="carrousel_ecran">
+          <figure>
+              <img src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Joao Vieira">
+              <figcaption>Photo de Joao Vieira</figcaption>
+          </figure>
+      </div>
+      <div id="ecran-5" class="carrousel_ecran">
+        <figure>
+            <img src="/public/img/artistes/Mira_Schendel.jpeg" alt="Photo de Mira Schendel">
+            <figcaption>Photo de Mira Schendel</figcaption>
+        </figure>
+    </div>
+  </div>
+</div>
+
+  </body>
+  </html>

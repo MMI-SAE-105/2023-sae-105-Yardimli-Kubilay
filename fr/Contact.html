@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu.webp" alt="menu bouton">
+      </button>
+      <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+
+          <li><a href="/index.html">Page d’accueil</a></li>
+          <li class="ligneb titre2">Les articles</li>
+          <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
+          <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
+          <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
+          <li><a href="/fr/page_Interstellar.html">Interstellar</a></li>
+          <li><a href="/fr/page_Exploration_spatiale.html">Exploration Spatial</a></li>
+          <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
+          <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
+          <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
+          <li class="ligneb"><a href="/fr/page_contact.html">Me contacter</a></li>
+          <li class="ligneb"><a href="/fr/page_a_propos.html">À propos</a></li>
+          <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
+        </ul>
+      </nav>
+    </header>
