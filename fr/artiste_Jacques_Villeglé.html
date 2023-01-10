@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      </button>
+      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+
+          <li><a href="/index.html">Page d’accueil</a></li>
+          <li class="ligneb"><a href="/fr/info_expo.html">Informations concernant l’exposition temporaire et billetterie</a></li>
+          <li class="ligneb"><a href="/fr/présentation_mouvement.html">Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres</a></li>
+          <li class="ligneb"><a href="/fr/Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+  Présentation
+  de
+  Jacques Villeglé
+</h1>
+
+<img src="/public/img/artistes/Mira_Schendel.jpeg" alt="Photo de Mira Schendel">
+<p>Mira Schendel</p>
+
+<p>
+  Présentation 
+</p>
+
+<p>
+  Mira Schendel, née le 7 juin 1919 à Zurich (Suisse) et morte le 24 juillet 1988 à São Paulo (Brésil), est une artiste peintre et poétesse brésilienne.
+</p>
+
+<p>
+  Fille d’un père juif tchèque germanophone et d’une mère italienne judéo-chrétienne, Mira Schendel passe son enfance et son adolescence à Milan. De 1941 à 1949, sa fuite pour échapper au nazisme puis, dans l’après-guerre, son passeport de « personne déplacée » la forcent à un exil itinérant en Europe qui l’empêche de poursuivre ses études.
+</p>
+<p>
+  La conscience de n’avoir aucune attache, ni à un pays ni à une discipline particulière, ainsi que les dualismes inhérents à sa condition – le judaïsme tchèque et le catholicisme italien, par exemple – influencent très certainement l’œuvre de cette autodidacte. Dès son arrivée au Brésil en 1949, Mira – qui simplifie alors ainsi son prénom – dessine, sculpte, mais se consacre surtout à la peinture. Sa démarche, focalisée sur le sujet (scientifique, religieux) beaucoup plus que sur la forme, la rapprochera, en particulier après 1955, d’un cercle d’intellectuels, et notamment du physicien et critique d’art Mário Schenberg.
+</p>
+
+<img src="/public/img/artistes/Mira_Schendel_image_2.jpeg" alt="Photo de Mira Schendel">
+<p>Mira Schendel</p>
+
+<p>
+  En 1951, elle participe à la Biennale de São Paulo. Sa préoccupation pour la dimension corporelle de la peinture, déjà présente dans ses premières toiles, figuratives, inspirées du travail de Giorgio Morandi, se radicalise au début des années 1960 avec la série Pinturas matéricas, où la surface picturale explorée se voit saturée des traces laissées par des gestes perturbateurs. Son enquête se poursuit, entre autres, avec un support léger, sur lequel elle intervient à peine : c’est la série Monotypias (deux tiers de son œuvre totale, réalisée entre 1964 et 1967), faite de petites feuilles de papier de riz imprégnées de l’encre que l’artiste a préalablement appliquée sur des planches en bois. Composés d’abord de traits minimes, ces travaux comportent ensuite des caractères calligraphiques, puis typographiques.
+</p>
+
+<p>
+  Ce dispositif permet de saisir les dualismes qui l’obsèdent (son héritage judéo-latin), avec notamment une lisibilité possible de gauche à droite comme de droite à gauche. Quelques monotypes suspendus entre deux plaques de plexiglas deviennent les Objetos gráficos, exposés en 1968 à la Biennale de Venise. Par période, elle pratique aussi la peinture a tempera, dont sa dernière série, Sarrafos, reste inachevée. Elle conçoit également des sculptures, en papier toujours, les droguinhas (« petites choses », 1966).
+</p>
+
+
+
+
+
+
+
+
+
+<h4>Quelque oeuvre</h4>
+
+<div>
+  <img src="/public/img/oeuvres/untitled-toquinho-1970.jpeg" alt="Oeuvre Untitled (Toquinho) de Mira Schendel">
+  <p>Untitled (Toquinho)
+
+    Créateur: Mira Schendel
+    Date: 1970
+    Style: Lettrism, Neo-Concretism</p>
+    <p>Voir plus</p>
+</div>
+
+    <footer>
+      <p>
+        Pour rester au courant de nos actualités, suivez-nous sur
+      </p>
+      <img src="/public/img/logo/facebook.svg" alt="logo facebook"> <img src="/public/img/logo/twitter.svg" alt="logo twitter"> <img src="/public/img/logo/instagram.svg" alt="logo instagram"> <img src="/public/img/logo/deezer.svg" alt="logo deezer"> <img src="/public/img/logo/youtube.svg" alt="logo youtube">
+      
+      <p>
+        Adresse e-mail
+      </p>
+      <p>
+        S’inscrire à la newsletter
+      </p>
+    
+    <p>
+      Espace presse
+    </p>
+      <p>
+        Politique de Confidentialité
+      </p>
+      <p>
+        Conditions d’utilisations
+      </p>
+    
+    </footer>
+      </body>
+      </html>
