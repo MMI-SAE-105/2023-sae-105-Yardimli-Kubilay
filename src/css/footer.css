@@ -1,0 +1,16 @@
+footer {
+    background-color: #E4E4E4;
+    position: end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    margin-top: 10px;
+    }
+    footer a{
+      color: #000000;
+      text-decoration: underline;
+    }
+    footer img {
+        width: 10%;
+    }
