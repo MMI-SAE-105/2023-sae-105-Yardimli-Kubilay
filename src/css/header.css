@@ -39,7 +39,8 @@ header {
     width: 13vw;
     height: 13vw;
     z-index: 32;
-   
+    background-color: #00000000;
+    border-style: none;
     }
   .ligneb {
     border-top:1px solid #000000;
