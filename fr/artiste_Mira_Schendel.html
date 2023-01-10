@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      </button>
+      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+
+          <li><a href="/index.html">Page d’accueil</a></li>
+          <li class="ligneb"><a href="/fr/info_expo.html">Informations concernant l’exposition temporaire et billetterie</a></li>
+          <li class="ligneb"><a href="/fr/présentation_mouvement.html">Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres</a></li>
+          <li class="ligneb"><a href="/fr/Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+  Présentation
+  de
+  Mira Schendel
+</h1>
+
+<img src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Mira Schendel">
+<p>Mira Schendel</p>
+
+<p>
+  Présentation 
+</p>
+
+<p>
+
+<p>
+</p>
+
+<img src="/public/img/artistes/Mira_Schendel_image_2.jpeg" alt="Photo de Mira Schendel">
+<p>Mira Schendel</p>
+
+<p>
+</p>
+
+<p>
+
+</p>
+
+
+<h4>Quelque oeuvre</h4>
+
+
+    <footer>
+      <p>
+        Pour rester au courant de nos actualités, suivez-nous sur
+      </p>
+      <img src="/public/img/logo/facebook.svg" alt="logo facebook"> <img src="/public/img/logo/twitter.svg" alt="logo twitter"> <img src="/public/img/logo/instagram.svg" alt="logo instagram"> <img src="/public/img/logo/deezer.svg" alt="logo deezer"> <img src="/public/img/logo/youtube.svg" alt="logo youtube">
+      
+      <p>
+        Adresse e-mail
+      </p>
+      <p>
+        S’inscrire à la newsletter
+      </p>
+    
+    <p>
+      Espace presse
+    </p>
+      <p>
+        Politique de Confidentialité
+      </p>
+      <p>
+        Conditions d’utilisations
+      </p>
+    
+    </footer>
+      </body>
+      </html>
