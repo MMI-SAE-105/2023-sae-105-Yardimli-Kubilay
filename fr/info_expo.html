@@ -16,8 +16,9 @@
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn"
       >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
       </button>
-      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <a href="/index.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
       <nav 
         id="mainNav"
         x-show="menuIsOpen"
@@ -39,80 +40,94 @@
   Informations concernant l’exposition temporaire et billetterie
 </h1>
 
-<img class="imgtaille" src="/public/img/exposition.webp" alt="exposition">
-<p>
-  EXPOSITION 
-Lettrisme Artistique
-</p>
+<div class="regroupementimgtext">
+  <img class="imgtaille" src="/public/img/exposition.webp" alt="exposition">
+  
+  <div class="rectangleexpo2">
+  <p class="textexpo">
+    Exposition
+  </p>
+  <p class="textexpo">
+    Lettrisme Artistique
+  </p>
+  </div>
+  </div>
 
-<p>
+
+  
+<p class="texteinfo">
   EXPOSITION PROCHAINEMENT
-13 avril au 23 juin 2023
+</p>
+<p class="infoexpo">
+  Du 13 avril au 23 juin 2023
 </p>
 
-<p>
-  Lieu de l’exposition : 
+<p class="texteinfo">
+  Lieu de l’exposition
+</p>
+<p class="infoexpo">
 Fondation Cartier, 261 Bd Raspail, 75014 Paris
 </p>
 
-<p>
-  Horaires d'ouverture :
+<p class="texteinfo">
+  Horaires d'ouverture
+</p>
+<p class="infoexpo">
 Tous les jours de 11h à 20h, sauf le lundi.
 Nocturne le mardi, jusqu'à 22h.
 La fermeture des salles débute à 19h45 (21h45 les mardis).
 </p>
 
-<p>
+<p class="texteinfo">
   Les Tarifs
 </p>
-
-<p>
-  Plein tarif ⇒    11€
+<p class="infoexpo">
+  Plein tarif : 11€
 </p>
-<p>
-  Tarif réduit ⇒     7,50€
+<p class="infoexpo">
+  Tarif réduit : 7,50€
 </p>
-<p>
-  Réduction 13 - 25 ans ⇒    5€
+<p class="infoexpo">
+  Réduction 13 - 25 ans : 5€
 </p>
-<p>
-  Fondation Cartier Pass ⇒     18€ - 50€
+<p class="infoexpo">
+  Fondation Cartier Pass : 18€ - 50€
 </p>
-<p>
+<p class="infoexpo">
   Moins de 13 ans, Laissez-passer
 annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, 
-Etudiants ⇒    Gratuit
+Etudiants : Gratuit
 </p>
 
-<button>
+<button class="btnreserver">
   Réserver
 </button>
 
 
 
-    <footer>
-      <p>
-        Pour rester au courant de nos actualités, suivez-nous sur
-      </p>
-      <img src="/public/img/logo/facebook.svg" alt="logo facebook"> <img src="/public/img/logo/twitter.svg" alt="logo twitter"> <img src="/public/img/logo/instagram.svg" alt="logo instagram"> <img src="/public/img/logo/deezer.svg" alt="logo deezer"> <img src="/public/img/logo/youtube.svg" alt="logo youtube">
-      
-      <p>
-        Adresse e-mail
-      </p>
-      <p>
-        S’inscrire à la newsletter
-      </p>
-    
-    <p>
-      Espace presse
-    </p>
-      <p>
-        Politique de Confidentialité
-      </p>
-      <p>
-        Conditions d’utilisations
-      </p>
-      
-    </footer>
-      </body>
-      </html>
+<footer>
+  <p class="textfooter">
+    Pour rester au courant de nos actualités, suivez-nous sur
+  </p>
+  <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube">
+  
+  <p class="textemail">
+    Adresse e-mail
+  </p>
+  <p class="textnewsletter">
+    S’inscrire à la newsletter
+  </p>
+
+  <p class="textpresse">
+  Espace presse
+  </p>
+  <p class="textfinfooter1">
+    Politique de Confidentialité
+  </p>
+  <p class="textfinfooter2">
+    Conditions d’utilisations
+  </p>
+
+</footer>
+</body>
+</html>
