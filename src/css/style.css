@@ -7,12 +7,9 @@ body{
     text-decoration: none;
   }
 .imgtaille {
+    width: 80vw;
     display: block;
-    width: 200px;
-    justify-content: center;
-    padding: 2rem 0;
-    padding-left: 70px;
-    position: relative;
+    margin: 0 auto;
 }
 img {
     display: flex;
@@ -35,10 +32,24 @@ img {
   .carrousel_ecran figure {
     margin: 0%; 
     }
+.btn {
+    border: 1px solid #000000;
+}
 
-
-
-
+.rectangle {
+    box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1209:1047 {
+  color: #343434;
+  font-family: Bellefair;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+}
+}
 
 
 
