@@ -9,8 +9,8 @@ body{
     font-size: 32px;
   }
   h2 {
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: center;
+    margin-bottom: 30px;
   }
   a {
     color: #000000;
@@ -46,6 +46,7 @@ body{
     width: 138px;
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }
 
 .regroupementimgtext {
@@ -126,6 +127,7 @@ body{
     width: 70px;
     font-size: 20px;
     text-align: center;
+    padding: 10px;
   }
 .textexpo {
   font-size: 20px;
@@ -164,18 +166,8 @@ body{
   text-align: center;
   background-color: #FFFFFF;
   margin-left: 250px;
+  padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 .frise {
     width: 200px;
     justify-content: center;
@@ -213,5 +205,57 @@ body{
   }
   .imgfrise img {
     display: block;
-    width: 200px;
+    width: 270px;
+  }
+  .imageartistefrise {
+    display: block;
+    width: 270px;
+    justify-content: center;
+    padding: 2rem 0;
+    padding-left: 70px;
+    position: relative;
+  }
+  .btnvoirplusfrise {
+    margin-top: 145px;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    border: 1px solid #000000;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .btnvoirplusfrise2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+    border: 1px solid #000000;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .rectanglefrise {
+    box-sizing: border-box;
+    background: #EEEEC5;
+    border: 0.5px solid #EEEEC5;
+    width: 300px;
+    height: auto;
+    position:absolute;
+    z-index:2;
+    left: 30px;
+    top: 290px;
+    padding: 5px;
+  }
+  .rectanglefrise2 {
+    box-sizing: border-box;
+    background: #EEEEC5;
+    border: 0.5px solid #EEEEC5;
+    width: 300px;
+    height: auto;
+    position:absolute;
+    z-index:2;
+    left: 30px;
+    top: 330px;
+    padding: 5px;
   }
