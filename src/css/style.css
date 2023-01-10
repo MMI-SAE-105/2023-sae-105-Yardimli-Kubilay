@@ -75,7 +75,7 @@ body{
     z-index:2;
     right: 20px;
     left: 120px;
-    top: 1000px;
+    top: 1020px;
     padding: 5px;
 }
 .imgIsidoreIsou {
@@ -116,7 +116,13 @@ body{
 .textexpo {
   font-size: 20px;
 }
-
+.flechedroite {
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    bottom: 170px;
+    z-index: 3;
+}
 
 
 
