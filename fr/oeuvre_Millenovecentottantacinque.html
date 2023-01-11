@@ -16,8 +16,9 @@
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn"
       >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
       </button>
-      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <a href="/index.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
       <nav 
         id="mainNav"
         x-show="menuIsOpen"
@@ -28,7 +29,7 @@
           <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
 
           <li><a href="/index.html">Page d’accueil</a></li>
-          <li class="ligneb"><a href="/fr/info_expo.html">Informations concernant l’exposition temporaire et billetterie</a></li>
+          <li class="ligneb"><a href="/fr/info_expo.html">Informations  l’exposition temporaire et billetterie</a></li>
           <li class="ligneb"><a href="/fr/présentation_mouvement.html">Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres</a></li>
           <li class="ligneb"><a href="/fr/Contact.html">Nous contacter</a></li>
         </ul>
@@ -41,8 +42,8 @@
     </h1>
     
     
-    <img src="/public/img/oeuvres/Alighiero_Boetti_Millenovecentottantacinque.jpeg" alt="Oeuvre Millenovecentottantacinque de Alighiero Boetti">
-      <p>Oeuvre Millenovecentottantacinque de Alighiero Boetti</p>
+    <img class="imgtaille" src="/public/img/oeuvres/Alighiero_Boetti_Millenovecentottantacinque.jpeg" alt="Oeuvre Millenovecentottantacinque de Alighiero Boetti">
+      <p class="descriptionimg">Oeuvre Millenovecentottantacinque de Alighiero Boetti</p>
       
       
       <h3>
@@ -54,42 +55,47 @@
       
       <h4>Créateur de l’oeuvre</h4>
 
-      <div> <a href="/fr/artiste_Alighiero_Boetti.html">
-        <img src="/public/img/artistes/Alighiero_Boetti.jpeg" alt="Photo de Alighiero Boetti">
-        <p>Alighiero Boetti (Alighiero Fabrizio Boetti)
-    
-          Naissance: 16 décembre 1940; Turin, Italie
-          Décès: 24 février 1994; Rome, Italie
-          Nationalité: Italien
-          Mouvement artistique: Arte Povera, art conceptuel, Lettrisme</p>
-          <p class="btn">Voir plus</p>
-        </a>
+      <div class="regroupementimgtext"> <a href="/fr/artiste_Alighiero_Boetti.html">
+        <img class="imageartistefrise" src="/public/img/artistes/Alighiero_Boetti.webp" alt="Photo de Alighiero Boetti">
+        <div class="rectanglefrise6">
+          <p class="textexpo">
+          Alighiero Boetti (Alighiero Fabrizio Boetti)
+        </p>
+        <p>
+          Naissance: 16 décembre 1940; Turin, Italie <br>
+          Décès: 24 février 1994; Rome, Italie <br>
+          Nationalité: Italien <br>
+          Mouvement artistique: Arte Povera, art conceptuel, Lettrisme
+        </p>
       </div>
+      <p class="btnvoirplusfrise11">Voir plus</p>
+      </a>
+    </div>
 
 
     <footer>
-      <p>
+      <p class="textfooter">
         Pour rester au courant de nos actualités, suivez-nous sur
       </p>
-      <img src="/public/img/logo/facebook.svg" alt="logo facebook"> <img src="/public/img/logo/twitter.svg" alt="logo twitter"> <img src="/public/img/logo/instagram.svg" alt="logo instagram"> <img src="/public/img/logo/deezer.svg" alt="logo deezer"> <img src="/public/img/logo/youtube.svg" alt="logo youtube">
+      <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube">
       
-      <p>
+      <p class="textemail">
         Adresse e-mail
       </p>
-      <p>
+      <p class="textnewsletter">
         S’inscrire à la newsletter
       </p>
     
-    <p>
+      <p class="textpresse">
       Espace presse
-    </p>
-      <p>
+      </p>
+      <p class="textfinfooter1">
         Politique de Confidentialité
       </p>
-      <p>
+      <p class="textfinfooter2">
         Conditions d’utilisations
       </p>
     
     </footer>
-      </body>
-      </html>
+  </body>
+  </html>
