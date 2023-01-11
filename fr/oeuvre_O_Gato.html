@@ -16,8 +16,9 @@
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn"
       >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
       </button>
-      <a href="/index.html"><h1 class=titre> Lettrisme </h1><h1 class=titre> Artistique</h1></a>
+      <a href="/index.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
       <nav 
         id="mainNav"
         x-show="menuIsOpen"
@@ -28,7 +29,7 @@
           <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
 
           <li><a href="/index.html">Page d’accueil</a></li>
-          <li class="ligneb"><a href="/fr/info_expo.html">Informations concernant l’exposition temporaire et billetterie</a></li>
+          <li class="ligneb"><a href="/fr/info_expo.html">Informations  l’exposition temporaire et billetterie</a></li>
           <li class="ligneb"><a href="/fr/présentation_mouvement.html">Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres</a></li>
           <li class="ligneb"><a href="/fr/Contact.html">Nous contacter</a></li>
         </ul>
@@ -41,13 +42,13 @@
     </h1>
     
     
-    <img src="/public/img/oeuvres/Joao_Vieira_O_Gato.jpeg" alt="Oeuvre O Gato de Joao Vieira">
-      <p>Oeuvre O Gato de Joao Vieira</p>
+    <img class="imgtaille" src="/public/img/oeuvres/Joao_Vieira_O_Gato.jpeg" alt="Oeuvre O Gato de Joao Vieira">
+      <p class="descriptionimg">Oeuvre O Gato de Joao Vieira</p>
       
       
-      <p>
-        Présentation :
-      </p>
+      <h3>
+        Présentation 
+      </h3>
       
       <p>
         L'oeuvre O Gato a été créé par Joao Vieira en 1967, est de genre figuratif.
@@ -55,42 +56,47 @@
       
       <h4>Créateur de l’oeuvre</h4>
 
-      <div> <a href="/fr/artiste_Joao_Vieira.html">
-        <img src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Joao Vieira">
-        <p>Joao Vieira (João Rodrigues Vieira)
-    
-          Naissance: 4 octobre 1934; Vidago, Portugal
-          Décès: 15 septembre 2009; Lisbon, Portugal
-          Nationalité: Portugais
-          Mouvement artistique: Lettrisme</p>
-          <p class="btn">Voir plus</p>
+      <div class="regroupementimgtext"> <a href="/fr/artiste_Joao_Vieira.html">
+        <img class="imageartistefrise" src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Joao Vieira">
+        <div class="rectanglefrise3">
+          <p class="textexpo">
+          Joao Vieira (João Rodrigues Vieira)
+        </p>
+        <p>
+          Naissance: 4 octobre 1934; Vidago, Portugal <br>
+          Décès: 15 septembre 2009; Lisbon, Portugal <br>
+          Nationalité: Portugais <br>
+          Mouvement artistique: Lettrisme
+        </p>
+      </div>
+          <p class="btnvoirplusfrise4">Voir plus</p>
         </a>
       </div>
 
 
-    <footer>
-      <p>
-        Pour rester au courant de nos actualités, suivez-nous sur
-      </p>
-      <img src="/public/img/logo/facebook.svg" alt="logo facebook"> <img src="/public/img/logo/twitter.svg" alt="logo twitter"> <img src="/public/img/logo/instagram.svg" alt="logo instagram"> <img src="/public/img/logo/deezer.svg" alt="logo deezer"> <img src="/public/img/logo/youtube.svg" alt="logo youtube">
+      <footer>
+        <p class="textfooter">
+          Pour rester au courant de nos actualités, suivez-nous sur
+        </p>
+        <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube">
+        
+        <p class="textemail">
+          Adresse e-mail
+        </p>
+        <p class="textnewsletter">
+          S’inscrire à la newsletter
+        </p>
       
-      <p>
-        Adresse e-mail
-      </p>
-      <p>
-        S’inscrire à la newsletter
-      </p>
-    
-    <p>
-      Espace presse
-    </p>
-      <p>
-        Politique de Confidentialité
-      </p>
-      <p>
-        Conditions d’utilisations
-      </p>
-    
-    </footer>
-      </body>
-      </html>
+        <p class="textpresse">
+        Espace presse
+        </p>
+        <p class="textfinfooter1">
+          Politique de Confidentialité
+        </p>
+        <p class="textfinfooter2">
+          Conditions d’utilisations
+        </p>
+      
+      </footer>
+    </body>
+    </html>
