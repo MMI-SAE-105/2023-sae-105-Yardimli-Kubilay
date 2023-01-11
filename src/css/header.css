@@ -9,11 +9,6 @@ header {
   .noscroll body {
     overflow: hidden;
     }
-  header a{
-    text-align: center;
-    text-decoration: none;
-    color: #000000;
-    }
   .titre1 {
       margin-top: 0px;
       padding-top: 30px;
@@ -49,8 +44,9 @@ header {
     }
   .ligneb {
     border-top:1px solid #000000;
+    border-left: 10px;
     line-height: 3em;
-    margin: 0px;  }
+  }
   
 .langue2 {
     display: inline-block;
