@@ -57,7 +57,7 @@
   </div>
   </div>
 
-
+  
   
 <p class="texteinfo">
   EXPOSITION PROCHAINEMENT
@@ -103,11 +103,13 @@ annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass
 Etudiants : Gratuit
 </p>
 
-<button class="btnreserver">
-  Réserver
-</button>
-
-
+  <div class="accordeon">
+    <section x-data="{open:false}">
+      <button @click="open = !open" class="btnreserver">Réserver</button>
+      <p x-show="open==true" class="texteaccordeon">
+        Le site n'est pas encore disponible
+      </p>
+    </div>
 
 <footer>
   <p class="textfooter">

@@ -493,3 +493,9 @@ body{
     width: 313px;
     margin-top: 20px;
   }
+  .texteaccordeon {
+    text-align: right;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
