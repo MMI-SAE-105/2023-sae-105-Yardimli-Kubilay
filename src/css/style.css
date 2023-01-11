@@ -91,6 +91,7 @@ body{
     height: auto;
     position:absolute;
     z-index:2;
+    right: 20px;
     left: 190px;
     top: 230px;
 }
