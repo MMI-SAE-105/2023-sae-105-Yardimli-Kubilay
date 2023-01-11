@@ -470,12 +470,12 @@ body{
   }
   .bouton_contacte_envoyer {
     background: #FFFFFF;
-    border: 3px solid #EEEEC5;
+    border: 1px solid #000000;
+    color: #000000;
     margin: 1%;
     margin-top: 30px;
   }
   .formulaire {
-    border: 2px solid #EEEEC5;
     margin: 8px;
   }
   .texte_contacte {
