@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<h1>
+  Présentation du mouvement artistique du Lettrisme, des artistes et de leurs oeuvres 
+</h1>
+
+<h3>
+  Le Lettrisme
+</h3>
+<p>
+  Mouvement artistique
+  Le lettrisme, également nommé hyper-créatisme ou hyper-novatisme, est à l'origine un mouvement artistique, puis pluriculturel, né en 1945 avec l'arrivée en France de son fondateur Isidore Isou.
+</p>
+
+<p>
+  Le lettrisme, renonçant à l'usage des mots, s'attache au départ à la poétique des sons, des onomatopées, à la musique des lettres.
+</p>
+
+<p>
+  Voici la définition qu'en donne Isidore Isou Goldstein en 1947 dans Bilan lettriste : « Art qui accepte la matière des lettres réduites et devenues simplement elles-mêmes (s'ajoutant ou remplaçant totalement les éléments poétiques et musicaux) et qui les dépasse pour mouler dans leur bloc des œuvres cohérentes. »
+</p>
+
+<p>
+  Par la suite, le Lettrisme se définira comme un mouvement culturel fondé sur la novation dans toutes les disciplines du savoir et de la vie, au moyen notamment de La Créatique ou la Novatique, ouvrage rédigé par Isou entre 1941 et 1976. Il est donc nécessaire de distinguer le "Lettrisme" comme mouvement d'avant-garde, et le "lettrisme" comme art basé sur les lettres ou les phonèmes.
+</p>
+
+
+<h2>
+  Frise présentant de manière chronologique du mouvement artistique du Lettrisme
+</h2>
+
+<div class="frise"> 
+  <div class="regroupementimgtext"> <a href="/fr/artiste_Isidore_Isou.html">
+    <img class="imageartistefrise" src="/public/img/artistes/Isidore_Isou.webp" alt="Photo de Isidore Isou">
+    <div class="rectanglefrise">
+    <p class="textexpo">
+      Isidore Isou (créateur du mouvement)
+    </p>
+    <p>
+      Naissance: 31 janvier 1925; Botoșani, Roumanie <br>
+      Décès: 28 juillet 2007; Paris, France <br>
+      Années d'activité: 1947 - 1999 <br>
+      Nationalité: Français, Juif, Roumain <br>
+      Mouvement artistique: Lettrisme
+    </p>
+  </div>
+      <p class="btnvoirplusfrise">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Les_Nombres_XXXII.html">
+    <img src="/public/img/oeuvres/Isidore_Isou_Les_Nombres_XXXII.jpeg" alt="Oeuvre Les Nombres XXXII de Isidore Isou">
+    <div class="rectanglefrise2">
+    <p class="textexpo">
+      Les Nombres XXXII
+    </p>
+    <p>
+      Créateur: Isidore Isou <br>
+      Date: 1952 <br>
+      Style: Lettrism <br>
+      Genre: figuratif
+    </p>
+    </div>
+      <p class="btnvoirplusfrise2">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Self-Portrait.html">
+    <img src="/public/img/oeuvres/Isidore_Isou_Self_Portrait.jpeg" alt="Oeuvre Self Portrait de Isidore Isou">
+    <div class="rectanglefrise2">
+    <p class="textexpo">
+      Self-Portrait
+    </p>
+    <p>
+      Créateur: Isidore Isou <br>
+      Date: 1952 <br>
+      Style: Lettrism <br>
+      Genre: Autoportrait 
+    </p>
+    </div>
+    <p class="btnvoirplusfrise3">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="regroupementimgtext"> <a href="/fr/artiste_Joao_Vieira.html">
+    <img class="imageartistefrise" src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Joao Vieira">
+    <div class="rectanglefrise3">
+      <p class="textexpo">
+      Joao Vieira (João Rodrigues Vieira)
+    </p>
+    <p>
+      Naissance: 4 octobre 1934; Vidago, Portugal <br>
+      Décès: 15 septembre 2009; Lisbon, Portugal <br>
+      Nationalité: Portugais <br>
+      Mouvement artistique: Lettrisme
+    </p>
+  </div>
+      <p class="btnvoirplusfrise4">Voir plus</p>
+    </a>
+  </div>
+  
+  <div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_O_Gato.html">
+    <img src="/public/img/oeuvres/Joao_Vieira_O_Gato.jpeg" alt="Oeuvre O Gato de Joao Vieira">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      O Gato
+    </p>
+    <p>
+      Créateur: Joao Vieira <br>
+      Date: 1967 <br>
+      Style: Lettrism <br>
+      Genre: figuratif
+    </p>
+    </div>
+    <p class="btnvoirplusfrise5">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="imgfrise regroupementimgtext">  <a href="/fr/oeuvre_uma_rose_e.html">
+    <img src="/public/img/oeuvres/Joao_Vieira_uma_rose_e.jpeg" alt="Oeuvre Uma Rosé É de Joao Vieira">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      Uma Rosé É
+    </p>
+    <p>
+      Créateur: Joao Vieira <br>
+      Date: 1968 <br>
+      Style: Lettrism <br>
+      Genre: figuratif 
+    </p>
+    </div>
+    <p class="btnvoirplusfrise6">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="regroupementimgtext"> <a href="/fr/artiste_Mira_Schendel.html">
+    <img class="imageartistefrise" src="/public/img/artistes/Mira_Schendel.jpeg" alt="Photo de Mira Schendel">
+    <div class="rectanglefrise3">
+      <p class="textexpo">
+      Mira Schendel (Myrrha Dagmar Dub)
+    </p>
+    <p>
+      Naissance: 7 juin 1919; Zurich, Suisse <br>
+      Décès: 24 juillet 1988; São Paulo, Brésil <br>
+      Nationalité: Suisse et Brésilienne <br>
+      Mouvement artistique:Neo-Concretism, Minimalisme, Art abstrait
+    </p>
+  </div>
+      <p class="btnvoirplusfrise7">Voir plus</p>
+    </a>
+  </div>
+
+  <div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Untitled_Toquinho.html">
+    <img src="/public/img/oeuvres/untitled-toquinho-1970.jpeg" alt="Oeuvre Untitled (Toquinho) de Mira Schendel">
+    <div class="rectanglefrise4">
+      <p class="textexpo">
+      Untitled (Toquinho)
+    </p>
+    <p>
+      Créateur: Mira Schendel <br>
+      Date: 1970 <br>
+      Style: Lettrism, Neo-Concretism
+    </p>
+  </div>
+  <p class="btnvoirplusfrise8">Voir plus</p>
+  </a>
+</div>
+
+<div class="regroupementimgtext"> <a href="/fr/artiste_Jacques_Villegle.html">
+  <img class="imageartistefrise" src="/public/img/artistes/Jacques_Villegle.webp" alt="Photo de Jacques Villeglé">
+  <div class="rectanglefrise5">
+    <p class="textexpo">
+      Jacques Villeglé (Jacques Mahé de la Villeglé)
+    </p>
+    <p>
+      Naissance: 1926; Quimper, Brittany, France <br>
+      Décès: 6 Juin 2022; Paris, France <br>
+      Nationalité: French <br>
+      Mouvement artistique: Lettrisme, <br>
+      Nouveau réalisme
+    </p>
+  </div>
+  <p class="btnvoirplusfrise9">Voir plus</p>
+  </a>
+</div>
+
+<div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Rue_du_Pre-Saint-Gervais.html">
+    <img src="/public/img/oeuvres/Jacques_Villegle_Rue_du_Pre-Saint-Gervais.jpeg" alt="Oeuvre Rue du Pré-Saint-Gervais de Jacques Villeglé">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      Rue du Pré-Saint-Gervais
+    </p>
+    <p>
+      Créateur: Jacques Villeglé <br>
+      Date: 1970 <br>
+      Style: Lettrism <br>
+      Genre: figuratif <br>
+    </p>
+  </div>
+  <p class="btnvoirplusfrise2">Voir plus</p>
+  </a>
+  </div>
+
+  <div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Boulevard_de_Belleville.html">
+    <img src="/public/img/oeuvres/Jacques_Villegle_Boulevard_de_Belleville.jpeg" alt="Oeuvre Boulevard de Belleville de Jacques Villeglé">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      Boulevard de Belleville
+    </p>
+    <p>
+      Créateur: Jacques Villeglé <br>
+      Date: April 20, 1972 <br>
+      Style: Lettrism <br>
+      Genre: figuratif
+    </p>
+  </div>
+  <p class="btnvoirplusfrise10">Voir plus</p>
+  </a>
+  </div>
+
+  <div class="regroupementimgtext"> <a href="/fr/artiste_Alighiero_Boetti.html">
+    <img class="imageartistefrise" src="/public/img/artistes/Alighiero_Boetti.webp" alt="Photo de Alighiero Boetti">
+    <div class="rectanglefrise6">
+      <p class="textexpo">
+      Alighiero Boetti (Alighiero Fabrizio Boetti)
+    </p>
+    <p>
+      Naissance: 16 décembre 1940; Turin, Italie <br>
+      Décès: 24 février 1994; Rome, Italie <br>
+      Nationalité: Italien <br>
+      Mouvement artistique: Arte Povera, art conceptuel, Lettrisme
+    </p>
+  </div>
+  <p class="btnvoirplusfrise11">Voir plus</p>
+  </a>
+</div>
+
+<div class="imgfrise regroupementimgtext"> <a href="/fr/oeuvre_Millenovecentottantacinque.html">
+    <img src="/public/img/oeuvres/Alighiero_Boetti_Millenovecentottantacinque.jpeg" alt="Oeuvre Millenovecentottantacinque de Alighiero Boetti">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      Millenovecentottantacinque
+    </p>
+    <p>
+      Créateur: Alighiero Boetti <br>
+      Date: 1985 <br>
+      Style: Lettrism <br>
+      Genre: abstrait 
+    </p>
+  </div>
+  <p class="btnvoirplusfrise12">Voir plus</p>
+  </a>
+  </div>
+  <div class="flechefrise">      </div>
+</div>
+
+
+<footer>
+  <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+  <p class="textfooter">
+    Pour rester au courant de nos actualités, suivez-nous sur
+  </p>
+  <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+
+  <p class="textemail">
+    Adresse e-mail
+  </p>
+  <p class="textnewsletter">
+    S’inscrire à la newsletter
+  </p>
+
+  <p class="textpresse">
+  Espace presse
+  </p>
+  <p class="textfinfooter1">
+    Politique de Confidentialité
+  </p>
+  <p class="textfinfooter2">
+    Conditions d’utilisations
+  </p>
+</footer>
+</body>
+</html>

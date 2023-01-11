@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Présentation de
+      l’oeuvre 
+      Self Portrait
+    </h1>
+    
+    
+    <img class="imgtaille" src="/public/img/oeuvres/Isidore_Isou_Self_Portrait.jpeg" alt="Oeuvre Self Portrait de Isidore Isou">
+      <p class="descriptionimg">Oeuvre Self Portrait de Isidore Isou</p>
+      
+      
+      <h3>
+        Présentation 
+      </h3>
+      
+      <p>
+        Partant d'un travail personnel sur le mouvement lettriste, créé par Isidore Isou en 1945, et d'un goût tout aussi personnel pour une approche non limitée à des questions d'esthétique et de formes en ce qui concerne l’ “art”.
+      </p>
+      
+      <h4>Créateur de l’oeuvre</h4>
+
+      <div class="regroupementimgtext"> <a href="/fr/artiste_Isidore_Isou.html">
+        <img class="imageartistefrise" src="/public/img/artistes/Isidore_Isou.webp" alt="Photo de Isidore Isou">
+        <div class="rectanglefrise">
+        <p class="textexpo">
+          Isidore Isou (créateur du mouvement)
+        </p>
+        <p>
+          Naissance: 31 janvier 1925; Botoșani, Roumanie <br>
+          Décès: 28 juillet 2007; Paris, France <br>
+          Années d'activité: 1947 - 1999 <br>
+          Nationalité: Français, Juif, Roumain <br>
+          Mouvement artistique: Lettrisme
+        </p>
+      </div>
+          <p class="btnvoirplusfrise">Voir plus</p>
+        </a>
+      </div>
+
+      <footer>
+        <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+        <p class="textfooter">
+          Pour rester au courant de nos actualités, suivez-nous sur
+        </p>
+        <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+    
+        <p class="textemail">
+          Adresse e-mail
+        </p>
+        <p class="textnewsletter">
+          S’inscrire à la newsletter
+        </p>
+    
+        <p class="textpresse">
+        Espace presse
+        </p>
+        <p class="textfinfooter1">
+          Politique de Confidentialité
+        </p>
+        <p class="textfinfooter2">
+          Conditions d’utilisations
+        </p>
+      </footer>
+    </body>
+    </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <h1>
+    Temporary exhibition on the artistic movement of Lettrism
+  </h1>
+
+<div class="regroupementimgtext">
+<img class="imgtaille" src="/public/img/exposition.webp" alt="exposition">
+
+<div class="rectangleexpo">
+<p class="textexpo">
+  Exhibition
+</p>
+<p class="textexpo">
+  Lettrisme Artistique
+</p>
+<p>
+  From 13 April to 23 June 2023
+</p>
+</div>
+</div>
+
+<a href="/en/en_info_expo.html">
+<p class="btnexpo">
+  Reserve a ticket
+</p>
+</a>
+<div class="carrousel" x-data="{}">
+  <div class="carrousel_parent-ecrans">
+      <div id="ecran-1" class="carrousel_ecran">
+          <figure>
+              <img class="imgIsidoreIsou" src="/public/img/artistes/Isidore_Isou.webp" alt="Photo de Isidore Isou">
+          </figure>
+      </div>
+      <div id="ecran-2" class="carrousel_ecran">
+          <figure>
+              <img class="imgAlighieroBoetti" src="/public/img/artistes/Alighiero_Boetti.webp" alt="Photo de Alighiero Boetti">
+          </figure>
+      </div>
+      <div id="ecran-3" class="carrousel_ecran">
+          <figure>
+              <img class="imgJacquesVilleglé" src="/public/img/artistes/Jacques_Villegle.webp" alt="Photo de Jacques Villeglé">
+          </figure>
+      </div>
+      <div id="ecran-4" class="carrousel_ecran">
+          <figure>
+              <img class="imgJoaoVieira" src="/public/img/artistes/Joao_Vieira.jpeg" alt="Photo de Joao Vieira">
+          </figure>
+      </div>
+      <div id="ecran-5" class="carrousel_ecran">
+        <figure>
+            <img class="imgMiraSchendel" src="/public/img/artistes/Mira_Schendel.jpeg" alt="Photo de Mira Schendel">
+        </figure>
+    </div>
+  </div>
+</div>
+<img class="flechedroite" src="/public/img/logo/arrow.svg" alt="fleche droite">
+<div class="rectanglemouvement">
+  <p class="textexpo">
+    Presentation of the artistic movement of Lettrism, the artists and their works 
+</p>
+</div>
+
+<a href="/en/en_présentation_mouvement.html">  
+<p class="btnvoirplus">
+  See more
+</p>
+</a>
+
+  <footer>
+    <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+    <p class="textfooter">
+      To keep up to date with our news, follow us on
+    </p>
+    <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+
+    <p class="textemail">
+      E-mail address
+    </p>
+    <p class="textnewsletter">
+      Sign up for our newsletter
+    </p>
+
+    <p class="textpresse">
+      Press area
+    </p>
+    <p class="textfinfooter1">
+      Privacy Policy
+    </p>
+    <p class="textfinfooter2">
+      Terms of Use
+    </p>
+  </footer>
+</body>
+</html>

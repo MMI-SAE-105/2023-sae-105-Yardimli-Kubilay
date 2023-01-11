@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+  Présentation
+  de
+  Isidore Isou
+</h1>
+
+<img class="imgtaille" src="/public/img/artistes/Isidore_Isou.webp" alt="Photo de Isidore Isou">
+<p class="descriptionimg">Isidore Isou</p>
+
+<h3>
+  Présentation 
+</h3>
+
+<p>
+  Isidore Isou, de son vrai nom Jean-Isidore Isou Goldstein, né le 29 janvier 1925 à Botoșani, en Roumanie, et mort le 28 juillet 2007 à Paris, est un poète, peintre, cinéaste, dramaturge, romancier et économiste français du XXe siècle. Il est le créateur du lettrisme (1945).
+</p>
+
+<p>
+  Né dans une famille juive, Isidore Goldstein fut formé par un père sévère et ambitieux. Enfant surdoué, il s'est précocement passionné pour les œuvres des grands auteurs de la littérature et de la philosophie. 
+</p>
+
+<p>
+  Selon son témoignage, il lisait Fiodor Dostoïevski à treize ans, Karl Marx à quatorze, Marcel Proust à seize. C'est au cours de ces lectures, qu'en 1942, à seize ans et demi, il aura l'intuition d'un nouveau système poétique et musical, quand, à la lecture d'une phrase de Hermann von Keyserling : « le poète dilate les vocables », une erreur de traduction l'a conduit à confondre « vocable » avec voyelle, comprenant ainsi, dans sa langue roumaine natale, que « le poète dilate les voyelles ». 
+</p>
+<img class="imgtaille" src="/public/img/artistes/Isidore_Isou_image_2.webp" alt="Photo de Isidore Isou">
+<p class="descriptionimg">Isidore Isou</p>
+<p>
+  Aussitôt, il rédige le Manifeste de la poésie lettriste, dont il dira que « réalisant l'universalité, nous créons une internationalité égale pour toutes les langues indifféremment de leur importance. Le profit et la perte de chaque nation étant égaux, nous réussirons à réaliser le vieux rêve de toute poésie. Que la poésie devienne transmissible n'importe où et qu'elle surpasse. La poésie lettriste, la première vraie internationale. »
+</p>
+
+<p>
+  Dans le même temps, il énoncera les lois d'une méthode de création qui prendra plus tard le nom de La Créatique ou la Novatique (1942-1976), et à partir de laquelle il redéfinira et transformera à peu près tous les domaines de la culture, des sciences aux arts en passant par les techniques, la philosophie, la théologie et la vie.
+</p>
+
+<p>
+  Fuyant les désastres de la Seconde Guerre mondiale, en compagnie de Serge Moscovici, il s’établit définitivement à Paris, au cœur du quartier Saint-Germain-des-Prés où il arrive clandestinement en août 1945, après un périple périlleux de plusieurs semaines à travers l'Europe. Dans sa valise, les notes et les textes rédigés dans son pays natal, parmi lesquels figurent les manuscrits de ses premiers ouvrages.
+</p>
+
+<p>
+  Son souhait de propagation de ses conceptions le conduit à rencontrer des personnalités du monde intellectuel, Pierre Albert-Birot, André Gide, Tristan Tzara ou André Breton, par exemple.
+</p>
+
+<h4>Quelques oeuvres</h4>
+
+<div class="regroupementimgtext"> <a href="/fr/oeuvre_Les_Nombres_XXXII.html">
+  <img class="imgtaille" src="/public/img/oeuvres/Isidore_Isou_Les_Nombres_XXXII.jpeg" alt="Oeuvre Les Nombres XXXII de Isidore Isou">
+  <div class="rectanglefrise2">
+  <p class="textexpo">
+    Les Nombres XXXII
+  </p>
+  <p>
+    Créateur: Isidore Isou <br>
+    Date: 1952 <br>
+    Style: Lettrism <br>
+    Genre: figuratif
+  </p>
+  </div>
+    <p class="btnvoirplusfrise13">Voir plus</p>
+  </a>
+</div>
+
+<div class="regroupementimgtext"> <a href="/fr/oeuvre_Self-Portrait.html">
+  <img class="imgtaille" src="/public/img/oeuvres/Isidore_Isou_Self_Portrait.jpeg" alt="Oeuvre Self Portrait de Isidore Isou">
+  <div class="rectanglefrise2">
+  <p class="textexpo">
+    Self-Portrait
+  </p>
+  <p>
+    Créateur: Isidore Isou <br>
+    Date: 1952 <br>
+    Style: Lettrism <br>
+    Genre: Autoportrait 
+  </p>
+  </div>
+  <p class="btnvoirplusfrise7">Voir plus</p>
+  </a>
+</div>
+
+
+<footer>
+  <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+  <p class="textfooter">
+    Pour rester au courant de nos actualités, suivez-nous sur
+  </p>
+  <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+
+  <p class="textemail">
+    Adresse e-mail
+  </p>
+  <p class="textnewsletter">
+    S’inscrire à la newsletter
+  </p>
+
+  <p class="textpresse">
+  Espace presse
+  </p>
+  <p class="textfinfooter1">
+    Politique de Confidentialité
+  </p>
+  <p class="textfinfooter2">
+    Conditions d’utilisations
+  </p>
+</footer>
+</body>
+</html>

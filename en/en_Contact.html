@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <h1>
+      Nous Contacter
+  </h1>
+  
+  <form class="formulaire" action="#">
+  <div class="espacecontact">
+      <label class="texte_contacte" for="Prénom">Prénom</label>
+     <input class="rectangle_contacte" type="text" name="Prénom" id="Prénom">
+    </div>
+  
+  <div class="espacecontact">
+      <label class="texte_contacte" for="Nom">Nom</label>
+      <input class="rectangle_contacte" type="text" name="Nom" id="Nom">
+    </div>
+  
+   <div class="espacecontact">
+      <label class="texte_contacte" for="E-mail">E-mail</label>
+      <input class="rectangle_contacte" type="text" name="E-mail" id="E-mail">
+    </div>
+  
+  <div class="espacecontact">
+      <label class="texte_contacte" for="message">Message</label>
+     <textarea class="rectangle_contacte" rows="5" name="message" id="message"></textarea>
+    </div>
+  
+  <button class="bouton_contacte_envoyer" type="submit">Envoyer</button>
+  
+  </form>
+
+
+
+  <footer>
+    <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+    <p class="textfooter">
+      Pour rester au courant de nos actualités, suivez-nous sur
+    </p>
+    <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+
+    <p class="textemail">
+      Adresse e-mail
+    </p>
+    <p class="textnewsletter">
+      S’inscrire à la newsletter
+    </p>
+
+    <p class="textpresse">
+    Espace presse
+    </p>
+    <p class="textfinfooter1">
+      Politique de Confidentialité
+    </p>
+    <p class="textfinfooter2">
+      Conditions d’utilisations
+    </p>
+  </footer>
+  </body>
+  </html>

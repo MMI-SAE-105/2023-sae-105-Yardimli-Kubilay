@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettrisme Artistique</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); </style>
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      <img src="/public/img/logo/menu_btn.svg" alt="menu bouton">
+      </button>
+      <a href="/index_en.html"><h1 class=titre1> Lettrisme </h1><h1 class=titre2> Artistique</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.350ms
+        x-t
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/index.html">Page d’accueil</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_info_expo.html">Exposition et billetterie</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_présentation_mouvement.html">Lettrisme / artistes / oeuvres</a></li>
+          <li><div class="traitmenu"></div></li>
+          <li><a href="/en/en_Contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+  Présentation
+  de
+  Alighiero Boetti
+</h1>
+
+<img class="imgtaille" src="/public/img/artistes/Alighiero_Boetti.webp" alt="Photo de Alighiero Boetti">
+<p class="descriptionimg">Alighiero Boetti</p>
+
+<h3>
+  Présentation 
+</h3>
+
+<p>
+  Alighiero Boetti (né le 16 décembre 1940 à Turin, au Piémont et mort le 24 avril 1994 à Rome) est un peintre, sculpteur et plasticien italien, lié au mouvement Arte Povera.
+</p>
+
+<p>
+  Lors de sa première exposition personnelle en janvier 1967, à la galerie Stein, à Turin, Alighiero Boetti présente essentiellement des sculptures pour lesquelles il utilise des procédés de juxtaposition ou d’empilement de matériaux. En septembre de la même année, il participe, aux côtés de Mario Merz, Jannis Kounellis, Luciano Fabro, Michelangelo Pistoletto et Giulio Paolini, à l’exposition collective « Arte povera », qui donnera son nom au mouvement qui le fera connaître.
+</p>
+
+
+<img class="imgtaille" src="/public/img/artistes/Alighiero_Boett_image_2.jpeg" alt="Photo de Alighiero Boetti">
+<p class="descriptionimg">Alighiero Boetti</p>
+
+<p>
+  S'interrogeant sur le statut de l'artiste, il ajoute un « e » (conjonction de coordination « et », en français) entre son prénom et son nom, dans une volonté de dédoublement de la personnalité.
+</p>
+
+<p>
+  En 1998, une rétrospective fut consacrée à l'artiste au Museum für Moderne Kunst. Selon Stefano Moreni, directeur du département d'art contemporain de Sotheby's à Paris, cette exposition permit de cimenter la position de l'artiste sur le marché international. Michele Casamonti de la galerie Tornabuoni Art le positionne comme l'un des artistes avec le marché le plus solide et plus international parmi les protagonistes de l'Arte Povera.
+</p>
+
+
+
+<h4>Quelque oeuvre</h4>
+
+<div>
+  <div class="regroupementimgtext"> <a href="/fr/oeuvre_Millenovecentottantacinque.html">
+    <img class="imgtaille" src="/public/img/oeuvres/Alighiero_Boetti_Millenovecentottantacinque.jpeg" alt="Oeuvre Millenovecentottantacinque de Alighiero Boetti">
+    <div class="rectanglefrise2">
+      <p class="textexpo">
+      Millenovecentottantacinque
+    </p>
+    <p>
+      Créateur: Alighiero Boetti <br>
+      Date: 1985 <br>
+      Style: Lettrism <br>
+      Genre: abstrait 
+    </p>
+  </div>
+  <p class="btnvoirplusfrise16">Voir plus</p>
+  </a>
+  </div>
+  <div class="flechefrise">      </div>
+</div>
+
+<footer>
+  <a href="https://www.fondationcartier.com/"> <img class="logofondation" src="/public/img/logo/logo_fondation.webp" alt="logo fondation cartier"> </a>
+  <p class="textfooter">
+    Pour rester au courant de nos actualités, suivez-nous sur
+  </p>
+  <a href="https://www.facebook.com/FondationCartier/"> <img class="logoreseauxF" src="/public/img/logo/facebook.svg" alt="logo facebook"> </a> <a href="https://twitter.com/Fond_Cartier"> <img class="logoreseauxT" src="/public/img/logo/twitter.svg" alt="logo twitter"> </a> <a href="https://www.instagram.com/fondationcartier/"> <img class="logoreseauxI" src="/public/img/logo/instagram.svg" alt="logo instagram"> </a> <a href="https://www.deezer.com/fr/profile/857765281/playlists"> <img class="logoreseauxD" src="/public/img/logo/deezer.svg" alt="logo deezer"> </a> <a href="https://www.youtube.com/user/fondationcartier"> <img class="logoreseauxY" src="/public/img/logo/youtube.svg" alt="logo youtube"> </a>
+
+  <p class="textemail">
+    Adresse e-mail
+  </p>
+  <p class="textnewsletter">
+    S’inscrire à la newsletter
+  </p>
+
+  <p class="textpresse">
+  Espace presse
+  </p>
+  <p class="textfinfooter1">
+    Politique de Confidentialité
+  </p>
+  <p class="textfinfooter2">
+    Conditions d’utilisations
+  </p>
+</footer>
+</body>
+</html>
