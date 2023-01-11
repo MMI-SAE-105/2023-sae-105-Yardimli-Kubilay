@@ -18,6 +18,9 @@ header {
       margin-top: 0px; 
       padding-bottom: 10px;
     }
+    header a{
+      font-size: 20px;
+      }
   .menu {
     text-align: center;
     position: fixed;
@@ -41,20 +44,24 @@ header {
     border-style: none;
     top: 15px;
     left: 20px;
-    }
-  .ligneb {
-    border-top:1px solid #000000;
-    border-left: 10px;
-    line-height: 3em;
-  }
-  
+    }  
+  .traitmenu {
+      border-top: 2px solid black;
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 230px;
+      } 
 .langue2 {
     display: inline-block;
     position: relative;
     text-align: center;    
     font-size: 20px;
+    margin-bottom: 0px;
   }
   ul {
     padding: 0px;
     margin-bottom: 200px;
+  }
+  li::marker{
+    color: #EEEEC5;
   }
