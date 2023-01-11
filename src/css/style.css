@@ -343,6 +343,16 @@ body{
     text-align: center;
     padding: 10px;
   }
+  .btnvoirplusfrise13 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    border: 1px solid #000000;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
   .rectanglefrise {
     box-sizing: border-box;
     background: #EEEEC5;
