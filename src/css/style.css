@@ -464,3 +464,30 @@ body{
     text-align: center;
     margin-top: 0px;
   }
+  .espacecontact {
+    margin-top: 20px;
+  }
+  .bouton_contacte_envoyer {
+    background: #FFFFFF;
+    border: 3px solid #EEEEC5;
+    margin: 1%;
+    margin-top: 30px;
+  }
+  .formulaire {
+    border: 2px solid #EEEEC5;
+    margin: 8px;
+  }
+  .texte_contacte {
+    margin: 2%;
+    font-size: 18px;
+  }
+  .rectangle_contacte {
+    display: block;
+    margin: auto;
+    background: #FFFFFF;
+    border: 1px solid #EEEEC5;
+    box-shadow: inset 0px -16px 32px rgba(33, 34, 28, 0.05);
+    border-radius: 4px;
+    width: 313px;
+    margin-top: 20px;
+  }
